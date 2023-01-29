@@ -26,6 +26,9 @@ jobs:
       - name: Run Next app
         run: npm run start &
 
+      - name: Playwright tests
+        run: npm run test:e2e
+
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.0.4
         env:
