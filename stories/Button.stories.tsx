@@ -13,7 +13,7 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 export const Default: Story = {
-  render: () => <Button kind="default">Default</Button>,
+  render: () => <Button kind="default">Test 1</Button>,
 };
 
 export const Error: Story = {

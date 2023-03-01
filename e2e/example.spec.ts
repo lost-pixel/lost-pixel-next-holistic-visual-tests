@@ -5,7 +5,5 @@ test('lost-pixel e2e', async ({ page }) => {
   await page.goto('http://172.17.0.1:3000/context');
   await page.click('data-test-id=context-click-counter');
   await page.click('data-test-id=context-click-counter');
-  await page.click('data-test-id=context-click-counter');
-  await page.click('data-test-id=context-click-counter');
   await page.screenshot({ path: 'lost-pixel/a.png', fullPage: true });
 });
