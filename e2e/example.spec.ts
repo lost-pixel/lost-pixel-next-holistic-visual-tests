@@ -6,6 +6,7 @@ test('lost-pixel e2e', async ({ page }) => {
   await page.click('data-test-id=context-click-counter');
   await page.click('data-test-id=context-click-counter');
   await page.click('data-test-id=context-click-counter');
+  await page.click('data-test-id=context-click-counter');
 
   await page.screenshot({ path: 'lost-pixel/a.png', fullPage: true });
 });
